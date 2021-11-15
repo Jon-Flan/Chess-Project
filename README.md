@@ -68,12 +68,12 @@ for (int i = 0; i < 64; i++) {
 Now that we have a chessboard, its time to add the pieces. <br>
 The pieces imgs are in the main folder and are added one at a time to the board. <br>
 
-![WhitePawn](https://github.com/ard24ie-courses/ca1-Jon-Flan/blob/main/WhitePawn.png)
-![WhiteKnight](https://github.com/ard24ie-courses/ca1-Jon-Flan/blob/main/WhiteKnight.png)
-![WhiteRook](https://github.com/ard24ie-courses/ca1-Jon-Flan/blob/main/WhiteRook.png)
-![WhiteBishop](https://github.com/ard24ie-courses/ca1-Jon-Flan/blob/main/WhiteBishup.png)
-![WhiteQueen](https://github.com/ard24ie-courses/ca1-Jon-Flan/blob/main/WhiteQueen.png)
-![WhiteKing](https://github.com/ard24ie-courses/ca1-Jon-Flan/blob/main/WhiteKing.png)
+![WhitePawn](https://github.com/Jon-Flan/Chess-Project/blob/main/WhitePawn.png)
+![WhiteKnight](https://github.com/Jon-Flan/Chess-Project/blob/main/WhiteKnight.png)
+![WhiteRook](https://github.com/Jon-Flan/Chess-Project/blob/main/WhiteRook.png)
+![WhiteBishop](https://github.com/Jon-Flan/Chess-Project/blob/main/WhiteBishup.png)
+![WhiteQueen](https://github.com/Jon-Flan/Chess-Project/blob/main/WhiteQueen.png)
+![WhiteKing](https://github.com/Jon-Flan/Chess-Project/blob/main/WhiteKing.png)
 
 <br>
 The pieces are added depending on the starting location as indicated by the get.Component() method in the snipped below. <br>
