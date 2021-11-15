@@ -96,7 +96,7 @@ panels = (JPanel)chessBoard.getComponent(1);
 <br> 
 With all the pieces we have ourselves a chess board! <br>
 
-![Chess_board](https://github.com/ard24ie-courses/ca1-Jon-Flan/blob/main/imgs/board_and_pieces.PNG)
+![Chess_board](https://github.com/Jon-Flan/Chess-Project/blob/main/imgs/board_and_pieces.PNG)
 
 ### Basic Movement
 
@@ -313,7 +313,7 @@ After its initial move a pawn has two moves allowed:
 Additional move:
 1. if the pawn reaches the opposite side of the board it can be converted into any of its teams pieces
 
-![WhitePawn](https://github.com/ard24ie-courses/ca1-Jon-Flan/blob/main/imgs/pawn_movement.PNG)
+![WhitePawn](https://github.com/Jon-Flan/Chess-Project/blob/main/imgs/pawn_movement.PNG)
 
 ```Java
 // WHITE PAWN
@@ -370,7 +370,7 @@ After its initial move a pawn has two moves allowed:
 Additional move:
 1. if the pawn reaches the opposite side of the board it can be converted into any of its teams pieces
 
-![BlackPawn](https://github.com/ard24ie-courses/ca1-Jon-Flan/blob/main/imgs/pawn_movement_2.PNG)
+![BlackPawn](https://github.com/Jon-Flan/Chess-Project/blob/main/imgs/pawn_movement_2.PNG)
 
 ```Java
 // BLACK PAWN
@@ -420,7 +420,7 @@ A knight should be able to:
 2. Jump over pieces in its way and not be affected
 3.  Land on an empty square or one occupied by an opponents piece
 
-![Knight](https://github.com/ard24ie-courses/ca1-Jon-Flan/blob/main/imgs/knight_movement.PNG)
+![Knight](https://github.com/Jon-Flan/Chess-Project/blob/main/imgs/knight_movement.PNG)
 
 ```Java
 // KNIGHT 
@@ -448,7 +448,7 @@ A Bishop should be able to:
 	- The landing square isn't occupied by a piece of the same colour
 	- Within the confines of the board
 
-![Bishop](https://github.com/ard24ie-courses/ca1-Jon-Flan/blob/main/imgs/bishop_movement.PNG)
+![Bishop](https://github.com/Jon-Flan/Chess-Project/blob/main/imgs/bishop_movement.PNG)
 
 ```Java
 // BISHOP
@@ -523,7 +523,7 @@ Special Movements: <br>
 	- Neither the King or the Rook have already made a move
 	- The path is not blocked by the possible attack of an opponents piece
 
-![Rook](https://github.com/ard24ie-courses/ca1-Jon-Flan/blob/main/imgs/rook_movement.PNG)
+![Rook](https://github.com/Jon-Flan/Chess-Project/blob/main/imgs/rook_movement.PNG)
 
 ```Java
 // ROOK
@@ -594,7 +594,7 @@ A Queen should be able to: <br>
 1. Follow the same movement rules as a Bishop
 2. Follow the same movement rules as a Rook
 
-![Queen](https://github.com/ard24ie-courses/ca1-Jon-Flan/blob/main/imgs/queen_movement.PNG)
+![Queen](https://github.com/Jon-Flan/Chess-Project/blob/main/imgs/queen_movement.PNG)
 
 ```Java
 // QUEEN
@@ -714,7 +714,7 @@ Special Moves: <br>
 	- The movement does not move the King across a line of Check  <br>
 
 #### Moving the King
-![King1](https://github.com/ard24ie-courses/ca1-Jon-Flan/blob/main/imgs/king_movement_1.PNG)
+![King1](https://github.com/Jon-Flan/Chess-Project/blob/main/imgs/king_movement_1.PNG)
 
 ```Java
 // KING
@@ -749,7 +749,7 @@ While implimenting this we could have explicitley checked ecah square but appear
 So nested loop was chosen instead. In testing this null exceptions where raised when kings where<br>
 at the edge of the board, so added a check to make sure the check was within bounds using the <br>
 within bounds method.<br>
-![King](https://github.com/ard24ie-courses/ca1-Jon-Flan/blob/main/imgs/king_movement.PNG)
+![King](https://github.com/Jon-Flan/Chess-Project/blob/main/imgs/king_movement.PNG)
 ```Java
 // This method checks if the opponents King is in an adjacent square when moving the King
 private Boolean checkForKing(int checkX, int checkY)
@@ -819,7 +819,7 @@ if((startX != landingX) || (startY != landingY)){
 ### Winner Logic
 For the CA1 requirements, a winner is when a player captures another players King. <br>
 
-![Winner](https://github.com/ard24ie-courses/ca1-Jon-Flan/blob/main/imgs/winner.PNG)
+![Winner](https://github.com/Jon-Flan/Chess-Project/blob/main/imgs/winner.PNG)
 <br>
 To achieve this,we can add a method that checks if when a piece is captured, <br>
 Is it a King?, we already make sure that a player cannot attack any of their own pieces. <br>
